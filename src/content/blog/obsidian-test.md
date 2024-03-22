@@ -1,9 +1,9 @@
 ---
 author: Invasion
-pubDatetime: 2024-03-22T18:40:44.000+01:00
+pubDatetime: 2024-03-22T19:52:36Z
 modDatetime: 
-title: Template Test
-slug: template-test
+title: obsidian-test
+slug: obsidian-test
 featured: false
 draft: false
 tags:
