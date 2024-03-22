@@ -5,7 +5,7 @@ modDatetime:
 title: obsidian-test
 slug: obsidian-test
 featured: false
-draft: first
+draft: false
 tags:
   - test
 description: test description
