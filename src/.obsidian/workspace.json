@@ -11,13 +11,8 @@
             "id": "a5dc26d2a15f1260",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian/001 Templates/Blog.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -30,13 +25,8 @@
             "id": "cca63bcb63ed1cd5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/blog/obsidian-test.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -105,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/blog/obsidian-test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +111,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/blog/obsidian-test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,9 +132,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "content/blog/obsidian-test.md"
-              }
+              "state": {}
             }
           },
           {
@@ -166,9 +152,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "content/blog/obsidian-test.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -191,8 +175,11 @@
   "active": "cca63bcb63ed1cd5",
   "lastOpenFiles": [
     "obsidian/001 Templates/Blog.md",
-    "content/blog/obsidian-test.md",
+    "obsidian/001 Templates",
+    "obsidian",
     "content/blog/template-test.md",
+    "content/blog/publish-time-test.md",
+    "content/blog/obsidian-test.md",
     "content/blog/portfolio-website-development.md",
     "content/blog/how-to-connect-astro-paper-blog-with-forestry-cms.md",
     "content/blog/dynamic-og-images.md",
@@ -215,7 +202,6 @@
     "IT/Blog drafts/Astro Paper help/tailwind-typography.md",
     "IT/Blog drafts/Astro Paper help/how-to-add-a-new-social-icon.md",
     "IT/Blog drafts/Astro Paper help/how-to-add-an-estimated-reading-time.md",
-    "IT/Blog drafts/Astro Paper help/example-draft-post.md",
     "IT/Blog drafts/Astro Paper help",
     "IT/Blog drafts/New folder",
     "IT/Blog drafts",
@@ -226,9 +212,7 @@
     "000 Assets/Pasted image 20240318165554.png",
     "000 Assets/Pasted image 20240318165336.png",
     "IRL/Healthcare",
-    "IRL/Huishoud",
     "000 Assets/Pasted image 20240316151757.png",
-    "Notes",
     "000 Assets/Pasted image 20240312152113.png",
     "000 Assets/Pasted image 20240312151921.png",
     "000 Assets/Pasted image 20240312134439.png",
