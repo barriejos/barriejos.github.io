@@ -1,11 +1,11 @@
 ---
-title: Example Draft Post
-author: Sat Naing
-pubDatetime: 2022-06-06T04:06:31Z
+title: Publish time test
+author: Barriejos
+pubDatetime: 2024-03-12
 modDatetime:
-slug: example-draft-post
+slug: publish-time-test
 featured: false
-draft: true
+draft: false
 tags:
   - TypeScript
   - Astro
@@ -15,8 +15,7 @@ description:
   fringilla est
 ---
 
-Users cannot see this post because it is in draft. Now you can.
+Body text?
 
 ## Motivation
-
-rec 1
+Idk man
