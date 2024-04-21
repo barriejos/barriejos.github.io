@@ -15,18 +15,45 @@ export interface Props {
 }
 
 const { currentPage, totalPages, paginatedPosts } = Astro.props;
+
+// Function to let grouping and sorting by year work
+function groupByYear(posts) {
+  return posts.reduce((acc, post) => {
+    const year = new Date(post.data.pubDatetime).getFullYear().toString();
+    if (!acc[year]) {
+      acc[year] = [];
+    }
+    acc[year].push(post);
+    return acc;
+  }, {});
+}
 ---
 
 <Layout title={`Archive | ${SITE.title}`}>
   <Header activeNav="posts" />
-  <Main pageTitle="Archive" pageDesc="All the articles I've posted.">
-    <ul>
-      {
-        paginatedPosts.map(({ data, slug }) => (
-          <Card href={`/archive/${slug}/`} frontmatter={data} />
+  <Main pageTitle="Archive">
+    {
+      // Group posts by year and sort by most recent year
+      Object.entries(groupByYear(paginatedPosts))
+        .sort(([yearA], [yearB]) => Number(yearB) - Number(yearA))
+        .map(([year, posts]) => (
+          <div key={year}>
+            <h2 className="text-xl font-bold mt-4 mb-2">{year}</h2>
+            <ul>
+              {
+                // Sort posts within each year by modDatetime or pubDatetime in descending order
+                posts.sort((postA, postB) => {
+                  const dateA = new Date(postA.data.modDatetime || postA.data.pubDatetime);
+                  const dateB = new Date(postB.data.modDatetime || postB.data.pubDatetime);
+                  return dateB - dateA;
+                }).map(({ data, slug }) => (
+                  <Card href={`/archive/${slug}/`} frontmatter={data} key={slug} />
+                ))
+              }
+            </ul>
+          </div>
         ))
-      }
-    </ul>
+    }
   </Main>
 
   <Pagination
