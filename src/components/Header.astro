@@ -14,7 +14,7 @@ const { activeNav } = Astro.props;
   <a id="skip-to-content" href="#main-content">Skip to content</a>
   <div class="nav-container">
     <div class="top-nav-wrap">
-      <a href="/" class="logo whitespace-nowrap">
+      <a href="/" class="logo whitespace-nowrap hover:text-skin-accent" >
         {
           LOGO_IMAGE.enable ? (
             <img
@@ -26,6 +26,7 @@ const { activeNav } = Astro.props;
           ) : (
             SITE.title
           )
+          
         }
       </a>
       <nav id="nav-menu">
@@ -56,8 +57,8 @@ const { activeNav } = Astro.props;
         </button>
         <ul id="menu-items" class="display-none sm:flex">
           <li>
-            <a href="/posts/" class={activeNav === "posts" ? "active" : ""}>
-              Posts
+            <a href="/archive/" class={activeNav === "posts" ? "active" : ""}>
+              Archive
             </a>
           </li>
           <li>
@@ -136,6 +137,7 @@ const { activeNav } = Astro.props;
     @apply h-6 w-6 scale-125 fill-skin-base;
   }
 
+
   nav {
     @apply flex w-full flex-col items-center sm:ml-2 sm:flex-row sm:justify-end sm:space-x-4 sm:py-0;
   }
@@ -156,7 +158,7 @@ const { activeNav } = Astro.props;
     @apply col-span-1;
   }
   nav a.active {
-    @apply underline decoration-wavy decoration-2 underline-offset-4;
+    @apply underline decoration-dashed underline-offset-4;
   }
   nav a.active svg {
     @apply fill-skin-accent;

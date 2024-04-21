@@ -15,26 +15,62 @@ export interface Props {
 }
 
 const { currentPage, totalPages, paginatedPosts } = Astro.props;
+
+// Function to let grouping and sorting by year work
+function groupByYear(posts) {
+  return posts.reduce((acc, post) => {
+    const year = new Date(post.data.pubDatetime).getFullYear().toString();
+    if (!acc[year]) {
+      acc[year] = [];
+    }
+    acc[year].push(post);
+    return acc;
+  }, {});
+}
 ---
 
-<Layout title={`Posts | ${SITE.title}`}>
+<Layout title={`Archive | ${SITE.title}`}>
   <Header activeNav="posts" />
-  <Main pageTitle="Posts" pageDesc="All the articles I've posted.">
-    <ul>
-      {
-        paginatedPosts.map(({ data, slug }) => (
-          <Card href={`/posts/${slug}/`} frontmatter={data} />
+  <Main pageTitle="Archive">
+    {
+      // Group posts by year and sort by most recent year
+      Object.entries(groupByYear(paginatedPosts))
+        .sort(([yearA], [yearB]) => Number(yearB) - Number(yearA))
+        .map(([year, posts]) => (
+          <div key={year}>
+          <section id="archive-year">
+            <h2>{year}</h2>
+            <ul>
+              {
+                // Sort posts within each year by modDatetime or pubDatetime in descending order
+                posts.sort((postA, postB) => {
+                  const dateA = new Date(postA.data.modDatetime || postA.data.pubDatetime);
+                  const dateB = new Date(postB.data.modDatetime || postB.data.pubDatetime);
+                  return dateB - dateA;
+                }).map(({ data, slug }) => (
+                  <Card href={`/archive/${slug}/`} frontmatter={data} key={slug} />
+                ))
+              }
+            </ul>
+          </section>
+          </div>
         ))
-      }
-    </ul>
+    }
   </Main>
 
   <Pagination
     {currentPage}
     {totalPages}
-    prevUrl={`/posts${currentPage - 1 !== 1 ? "/" + (currentPage - 1) : ""}/`}
-    nextUrl={`/posts/${currentPage + 1}/`}
+    prevUrl={`/archive${currentPage - 1 !== 1 ? "/" + (currentPage - 1) : ""}/`}
+    nextUrl={`/archive/${currentPage + 1}/`}
   />
 
   <Footer noMarginTop={totalPages > 1} />
+    
 </Layout>
+
+<style>
+  #archive-year h2 {
+    @apply text-2xl font-semibold tracking-wide;
+  }
+</style>
