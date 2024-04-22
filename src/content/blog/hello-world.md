@@ -1,7 +1,7 @@
 ---
 author: Invasion
-pubDatetime: 2024-04-22T21:03:36+02:00
-modDatetime:
+pubDatetime: 2024-04-20T21:03:36+02:00
+modDatetime: 2024-04-22T21:09:36+02:00
 title: Hello, World!
 slug: hello-world
 featured: false
@@ -51,8 +51,6 @@ Even something as simple as a text input field can be exploited against a user i
 
 ![image](/src/assets/images/blog-cookies-compressed.png)
 
-<p style="text-align: center; font-style: italic;">And having no bloat means no cookies by default!</p>
-
-I have been toying with the idea of using a privacy friendly analytics tool but this won't be anytime soon if at all.
+<p style="text-align: center; font-style: italic;">And having no bloat means no cookies by default!</p><br>
 
 Of course, not being able to code has it's downsides with this approach. But finding a nice base theme and fiddling around with it is doable. The one I chose is [Github/Astro-Paper](https://github.com/satnaing/astro-paper).

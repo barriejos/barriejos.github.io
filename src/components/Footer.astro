@@ -14,10 +14,9 @@ const { noMarginTop = false } = Astro.props;
 <footer class={`${noMarginTop ? "" : "mt-auto"}`}>
   <Hr noPadding />
   <div class="footer-wrapper">
-    <Socials centered />
-    <div class="flex justify-between w-full">
+      <div class="flex justify-between w-full">
       <div class="copyright-wrapper">
-        <span>Copyright &#169; {currentYear}</span>
+        <span>Copyright &#169; {currentYear} | Invasion Does Things</span>
       </div>
       <div class="footer-right">
         <a href="/rss.xml" class="mr-2 hover:text-skin-accent">RSS Feed</a>
