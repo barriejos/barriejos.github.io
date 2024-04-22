@@ -1,7 +1,7 @@
 ---
 author: Invasion
-pubDatetime: 2024-04-20T21:03:36+02:00
-modDatetime: 2024-04-22T21:09:36+02:00
+pubDatetime: 2024-04-20T21:03:36Z
+modDatetime: 2024-04-22T21:09:36Z
 title: Hello, World!
 slug: hello-world
 featured: false
