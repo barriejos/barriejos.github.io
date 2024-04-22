@@ -50,7 +50,7 @@ My blog doesn't need a lot of features, but WordPress by default crams a lot in 
 
 Even something as simple as a text input field can be exploited against a user if the website is not well maintained or uses a bad theme/plugin.
 
-![image](./src/assets/images/blog-cookies-compressed.png)
+![image](@assets/images/blog-cookies-compressed.png)
 
 <p style="text-align: center; font-style: italic;">And having no bloat means no cookies by default!</p><br>
 
