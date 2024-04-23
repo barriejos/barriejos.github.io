@@ -5,7 +5,6 @@ const robots = `
 
 User-agent: *
 Allow: /posts/
-Allow: /index.html
 Disallow: /privacy-policy/
 Disallow: /tags/
 Disallow: /search/
