@@ -2,11 +2,20 @@ import type { APIRoute } from "astro";
 import { SITE } from "@config";
 
 const robots = `
-User-agent: Googlebot
-Disallow: /nogooglebot/
 
 User-agent: *
-Allow: /
+Allow: /posts/
+Allow: /index.html
+Disallow: /privacy-policy/
+Disallow: /tags/
+Disallow: /search/
+Disallow: /archive/
+
+User-agent: Googlebot-Image
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
 
 Sitemap: ${new URL("sitemap-index.xml", SITE.website).href}
 `.trim();
