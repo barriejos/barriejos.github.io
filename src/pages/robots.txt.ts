@@ -5,9 +5,6 @@ const robots = `
 
 User-agent: *
 Allow: /posts/
-Disallow: /privacy-policy/
-Disallow: /tags/
-Disallow: /search/
 Disallow: /archive/
 
 User-agent: Googlebot-Image
