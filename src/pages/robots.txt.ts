@@ -5,6 +5,7 @@ const robots = `
 
 User-agent: *
 Allow: /archive/
+Disallow: /posts/
 
 User-agent: Googlebot-Image
 Disallow: /
