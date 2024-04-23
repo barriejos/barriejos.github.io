@@ -37,5 +37,7 @@ const pagination = getPagination({
   page: slug,
 });
 ---
-
+<header>
+  <meta name="robots" content="noindex">
+</header>
 {post ? <PostDetails post={post} /> : <Posts {...pagination} />}
