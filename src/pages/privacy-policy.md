@@ -2,6 +2,10 @@
 layout: ../layouts/PrivacyLayout.astro
 ---
 
+<header>
+<meta name="robots" content="noindex">
+</header>
+
 # Privacy Policy
 
 Last updated: April 22, 2024
