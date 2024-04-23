@@ -4,8 +4,8 @@ import { SITE } from "@config";
 const robots = `
 
 User-agent: *
-Allow: /posts/
-Disallow: /archive/
+Allow: /archive/
+Disallow: /posts/
 
 User-agent: Googlebot-Image
 Disallow: /
