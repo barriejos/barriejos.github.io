@@ -1,6 +1,6 @@
 ---
 author: Invasion
-pubDatetime: 2024-05-10T12:00:00Z
+pubDatetime: 2024-05-10T14:00:00Z
 modDatetime:
 title: Diablo 4 past and future
 slug: diablo-4-past-and-future
