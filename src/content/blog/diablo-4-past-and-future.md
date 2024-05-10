@@ -62,29 +62,29 @@ From the perspective of a necromancer that went from minion build to bone spear.
 
 - Popular (good) farm spots get nerfed, popular builds get nerfed (I hope they don't do this while a season is ongoing but at this point I wouldn't be surprised). Blizzard has been actively sucking the fun out of the game during launch and making the overall experience worse. This is generally done by reducing monster density, which feels extremely backwards in an arpg.
 
-- There has been datamining of quality of life improvements, for example more stash tabs. That have been in the game from launch but not activated. Assuming they are going to make these available as rewards during the first season. Why make life more difficult for people playing now? Are they trying to encourage people to play the new season just to be able to actually play the game as a normal arpg? Do they expect people to just quit otherwise? Intentions unclear and feels scummy.
+- There has been data mining of quality of life improvements for example more stash tabs that have been in the game from launch but not activated. I'm assuming they are going to make these available as rewards during the first season. Why make life more difficult for people playing now? Are they trying to encourage people to play the new season just to be able to play the game as a normal arpg? Do they expect people to just quit otherwise? Intentions unclear and feels scummy.
 
 - They claim to have 100+ dungeons but in reality there is almost no boss variety in the dungeons, the tilesets are limited to the 4 regions and the layout itself is mostly identical.
 
-- There are time gating events inside the dungeons to prevent you from doing them "too fast" (no fun allowed) there is also close to no variety in these events and are just blatant stop gaps to make you go even slower. - This has been somewhat improved prior to Season 4 (I think)
+- There are time-gating events inside the dungeons to prevent you from doing them "too fast" (no fun allowed) there is also close to no variety in these events and are just blatant stop gaps to make you go even slower. - This has been somewhat improved prior to Season 4 (I think)
 
 - The objectives to complete inside dungeons are boring, have close to no variety, and there is one specific objective "Kill all monsters" that makes me cringe the moment I see it on the screen. Got one straggler? Better go find it!
 
-- I (almost) can't believe I'm saying this but D3 rifts were infinitely more fun than D4 dungeons from a gameplay perspective. - This is being improved with "The Pit" which is basically Greater Rifts from D3 being added in Season 4
+- I (almost) can't believe I'm saying this but D3 rifts were infinitely more fun than D4 dungeons from a gameplay perspective. - This is being improved with "The Pit" which is inspired by Greater Rifts from D3 being added in Season 4
 
 - I don't think Blizzard even knows what game they are trying to make with D4, it's a weird MMO/ARPG hybrid but it's failing in both categories. There are a lot of design decisions that make me question if they even have arpg players in their dev team. - This has been improved with a multitude of changes, the vision looks more clear now. Campfire Chats have also revealed their way of thinking behind some of these decisions which aren't inherently bad.
 
 ## Conclusion
 
-### Past conclusion:
+### Past conclusion
 
 I would recommend D4 if you like the Diablo lore and atmosphere, the campaign is amazing. If you are looking for an arpg with good endgame, this isn't it. There are many more and way better options available and coming (Path Of Exile (2), Last Epoch, Torchlight Infinite, Grim Dawn, Torchlight 2, Titan Quest, Diablo 2 (Resurrected), ...)
 
 I myself will not be returning to D4 unless there are story updates/expansion packs or they do a 180 degree shift in direction of the game. I can't even be bothered leveling alts.
 
-So did i have fun? Yeah, the entire campaign and discovering the endgame. At this point I have lost confidence Blizzard knows how to make good multiplayer games.
+So did I have fun? Yeah, the entire campaign and discovering the endgame. At this point I have lost confidence Blizzard knows how to make good multiplayer games.
 
-### Added onto conclusion now:
+### Added onto conclusion now
 
 That last bit about losing confidence they know how to make multiplayer games has been kind of revoked for me. I have been having a lot of fun in WoW, and the next expansion The War Within seems to add and improve upon the fun base foundation they have laid in Dragonflight.
 
