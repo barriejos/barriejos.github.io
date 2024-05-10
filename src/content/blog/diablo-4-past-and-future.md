@@ -4,7 +4,7 @@ pubDatetime: 2024-05-10T14:00:00Z
 modDatetime:
 title: Diablo 4 past and future
 slug: diablo-4-past-and-future
-featured: false
+featured: true
 draft: false
 tags:
   - y2024
@@ -21,7 +21,7 @@ This entire update looks great on paper, and I hope it plays as well in practice
 
 For history's sake, I have rewritten my initial thoughts to be a bit less... aggressive and put them down below. I will put anecdotes on things I know have been improved, and will probably make another post after I have played Vessel of Hatred. Take note: I have not played since launch and only followed dev updates.
 
-# Launch thoughts
+# Initial launch thoughts
 
 ## tl;dr
 
@@ -98,7 +98,7 @@ I myself will not be returning to D4 unless there are story updates/expansion pa
 
 So did I have fun? Yeah, the entire campaign and discovering the endgame. At this point I have lost confidence Blizzard knows how to make good multiplayer games.
 
-### New conclusion
+### 2024 conclusion
 
 That last bit about losing confidence they know how to make multiplayer games has been kind of revoked for me. I have been having a lot of fun in WoW, and the next expansion The War Within seems to add and improve upon the fun base foundation they have laid in Dragonflight.
 
